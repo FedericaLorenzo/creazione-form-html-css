@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Il modulo dei contatti</title>
+    <link rel="stylesheet" href="stile-modulo.css">
+</head>
+
+<body>
+    <header>
+        <div id="header">
+            <h1> Contattaci </h1>
+            <p>Vuoi saperne di più sui nostri corsi web? Scrivici e prenota un appuntamento con noi. Ti aiuteremo a
+                trovare il corso su misura per te. </p>
+        </div>
+        <div id="logo-nero"><img src="immagini/logo-nero.png" alt=""></div>
+    </header>
+    <div id="box">
+        <form>
+            <h2>Scrivi il tuo messaggio</h2>
+            <p>
+                Scrivici e ti risponderemo il prima possibile
+            </p>
+            <fieldset id="sinistra">
+                <label for="nome">Il tuo nome</label>
+                <input type="text" id="nome" placeholder="Nome e cognome" required>
+
+                <label for="numero">Il tuo telefono</label>
+                <input type="tel" id="numero" placeholder="scrivi il tuo telefono">
+
+                <label for="corsi">A quale corso sei interessato?</label>
+                <select name="" id="corsi" required>
+                    <option selected></option>
+                    <option value="Front end">Corso Front End Development</option>
+                    <option value="Back End">Corso Back End Development</option>
+                    <option value="Full Stack">Corso Full Stack Development</option>
+                    <option value="UI/UX">Corso UI/UX Design</option>
+                    <option value="idee non chiare">Non ho ancora la idee chiare</option>
+                </select>
+            </fieldset>
+            <fieldset id="destra">
+                <label for="email">La tua email</label>
+                <input type="email" id="email" placeholder="you@email.it" required>
+
+                <label for="azienda">La tua azienda</label>
+                <input type="text" id="azienda" placeholder="Il nome della tua azienda">
+
+                <label for="orario">A che ora possiamo ricontattarti?</label>
+                <select name="" id="orario" required>
+                    <option selected></option>
+                    <option value="mattina">mattina 10.00/13.00</option>
+                    <option value="pranzo">pranzo 13.00/14.00</option>
+                    <option value="pomeriggio">pomeriggio 15.00/18.00</option>
+                    <option value="sera">sera 18.00/20.00</option>
+                </select>
+            </fieldset>
+            <!-- <input type="text" id="messaggio" placeholder="scrivi il tuo messaggio qui"> -->
+            <fieldset>
+            <textarea name="" id="messaggio" placeholder="Scrivi il tuo messaggio qui"></textarea>
+            <div id="checkbox"><input type="checkbox" id="privacy" required> <p> Ho letto <a href="#">l'informativa sulla privacy
+                </a> e accetto le condizioni</p></div>
+            <div id="button"><input type="submit" value="SUBMIT"></div></fieldset>
+
+        </form>
+
+        <div id="contatti">
+            <h2> I nostri contatti</h2>
+            <div id="dati">
+                <ul>
+                    <li><a href="https://maps.app.goo.gl/Dk1jNPmJaorcoNdc6" target="blank" title="Sede Labfortraining">
+                        <img src="immagini/map.png" alt="">
+                        <p> Via Francesco Saverio Solari 8, Roma</p></a> 
+                    </li>
+                    <li> <a href="mailto:info@labfortraining.it" title="Scrivici">
+                        <img src="immagini/mail.png" alt="">
+                        <p> info@labfortraining.it</p></a>
+                    </li>
+                    <li> <a href="tel:+390658205135" title="Chiamaci">
+                        <img src="immagini/phone.png" alt="">
+                        <p> +39 0658205135</p></a>
+                    </li>
+                </ul>
+            </div>
+            <div id="social">
+               <a href="#"><img src="immagini/twitter.png" alt=""></a>
+               <a href="#"><img src="immagini/instagram.png" alt=""></a>
+                <a href="#"><img src="immagini/facebook.png" alt=""></a>
+            </div>
+        </div>
+    </div>
+
+</div>
+</body>
+
+</html>

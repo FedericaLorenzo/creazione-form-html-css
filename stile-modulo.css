@@ -1,0 +1,183 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body {
+    max-width: 900px;
+    margin: auto;
+    font-family: 'Segoe UI', Tahoma, Verdana, sans-serif;
+    
+}
+
+header{
+    overflow: auto;
+}
+#header {
+    float: left;
+    width: 52%;
+    overflow: auto;
+}
+
+#logo-nero {
+    float: right;
+    width:48%;
+}
+
+#logo-nero img {
+    width: 25%;
+    float: right;
+}
+
+h1 {
+    margin-bottom: 0.3em;
+    font-size: 2.3em;
+}
+
+h2 {
+    color: #3b4754;
+    margin: 0 0 0.3em 0;
+}
+
+p {
+    margin: 0;
+    font-size: 0.9em;
+    color: #798da3;
+}
+
+#box {
+    background-color: #eff0f4;
+    border: 0.2em solid #c9d3dd;
+    border-radius: 0.5em;
+    margin-top: 2em;
+    overflow: auto;
+}
+
+form {
+    float: left;
+    width: 63%;
+    border-right: 0.2em solid #c9d3dd;
+    padding: 2em;
+}
+
+label {
+    display: block;
+    margin-top: 1.2em;
+    color: #3b4754;
+    font-weight: bold;
+    font-size: 0.8em;
+}
+
+form #sinistra {
+    float: left;
+    width: 49%;
+}
+
+form #destra {
+    float: right;
+    width: 49%;
+}
+
+textarea {
+    width: 100%;
+    padding: 0.5em 0.5em 4em;
+    margin: 1.5em 0 1em;
+    resize: none;
+    border-radius: 0.3em;
+    outline: none;
+    border: 0.2em solid #c9d3dd;
+    background-color: #fff;
+}
+
+input[type]:not([type='checkbox']):not([type='submit']),
+select {
+    outline: none;
+    margin-top: 0.2em;
+    border: 0.2em solid #c9d3dd;
+    background-color: #fff;
+    width: 100%;
+    border-radius: 0.3em;
+    padding: 0.5em;
+}
+
+input[type='submit'] {
+    background-color: #3b4754;
+    color: #fff;
+    padding: 1em;
+    margin: 2.7em 0 0 0;
+    border-radius: 0.3em;
+    font-size: 0.8em;
+    font-weight: bold;
+    width: 27%;
+}
+
+input[type='submit']:active {
+position:relative;
+top:1px;
+left:1px;
+cursor:pointer;
+}
+
+
+#button {
+    width: 100%;
+    text-align: center;
+}
+
+a {
+    color: #798da3;
+    text-decoration: none;
+}
+#checkbox p {
+    display: inline;
+}
+
+#contatti {
+    float: left;
+    padding: 2em;
+    width: 37%;
+}
+
+#dati img {
+    background-color: #fff;
+    padding: 0.2em;
+    border-radius: 0.7em;
+    float: left;
+    width: 1rem;
+    margin-top: 0.2em;
+}
+
+fieldset {
+    border: none;
+    margin: 0;
+}
+
+ #dati ul {
+    list-style: none; 
+    padding: 1.5em 0;
+    margin: 1.5em 0;
+    border-top: 0.1em solid #c9d3dd;
+    border-bottom: 0.1em solid #c9d3dd;
+    overflow: auto;
+}
+
+#contatti li {
+    float: left;
+    width: 100%; 
+    padding: 0.5em 0;
+    height: 100%;
+}
+
+
+#contatti p {
+    padding: 0 0 0 0.7em;
+    overflow: auto;
+
+} 
+
+#social img {
+    width: 1em;
+    margin: 0.3em;
+}
+
+
